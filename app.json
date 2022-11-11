@@ -1,7 +1,7 @@
 {
   "name": "String Session Generator",
   "description": "Telegram bot to generate pyrogram string session",
-  "logo": "https://telegra.ph/file/ec05d05719cc93dd2b663.jpg",
+  "logo": "https://te.legra.ph/file/7d889d19e90ec32472880.mp4",
   "keywords": [
     "telegram",
     "bot",
@@ -25,32 +25,32 @@
          "plan": "heroku-postgresql"
       }
    ],
-  "repository": "https://github.com/SOURCESEM0/BOT_BA",
+  "repository": "https://github.com/Lungjt/ba",
   "env": {
     "ENVIRONMENT": {
       "description": "لا تغيرها",
       "required": true,
-      "value": "ANYTHING"
+      "value": ""
     },
     "API_ID": {
       "description": "لا تغيرها",
       "required": true,
-      "value": "19311853"
+      "value": ""
     },
     "API_HASH": {
       "description": "لا تغيرها",
       "required": true,
-      "value": "4ca0aa8963514e8ec70b8eb1b13fbd5c"
+      "value": ""
     },
     "BOT_TOKEN": {
       "description": "توكن البوت",
       "required": true,
-      "value": "5631055096:AAHaIU9jGaRqttiI9fwfV75qPAA8cM515ds"
+      "value": ""
     },
     "MUST_JOIN": {
       "description": "لا تغيرها",
       "required": false,
-      "value": "ZedThon"
+      "value": "Lungjt"
     }
   }
 }
