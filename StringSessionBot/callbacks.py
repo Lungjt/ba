@@ -4,7 +4,7 @@ from pyrogram.types import CallbackQuery, InlineKeyboardMarkup, InlineKeyboardBu
 from StringSessionBot.generate import generate_session, ERROR_MESSAGE
 
 
-# Callbacks
+# Callbacks @JJPJB
 @Client.on_callback_query()
 async def _callbacks(bot: Client, callback_query: CallbackQuery):
     user = await bot.get_me()
@@ -43,7 +43,7 @@ async def _callbacks(bot: Client, callback_query: CallbackQuery):
         )
     elif query == "generate":
         await callback_query.message.reply(
-            "**- اخـتـر تـليثـون لاسـتـخـراج كـود تـيـرمڪـس سـيـمـو **",
+            "**- اخـتـر تـليثـون لاسـتـخـراج كـود تـيـرمڪـس تـيـركـس **",
             reply_markup=InlineKeyboardMarkup([[
                 InlineKeyboardButton("بايـروجـرام", callback_data="pyrogram"),
                 InlineKeyboardButton("تـليثــون", callback_data="telethon")
